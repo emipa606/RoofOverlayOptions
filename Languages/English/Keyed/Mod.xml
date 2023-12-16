@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RoofOverlayOptions>Roof Overlay Options</RoofOverlayOptions>
+  <RoofOverlayAlpha>Roof Overlay Alpha: {0}</RoofOverlayAlpha>
+  <RoofOverlayReload>Any setting-change will require a reload of the save to have effect</RoofOverlayReload>
+  <RooOverlayThickRoofRed>Red overhead mountain in roof overlay</RooOverlayThickRoofRed>
+  <RooOverlayThickRoofRedTip>Use red color to show thick roof (overhead mountain) in roof overlay</RooOverlayThickRoofRedTip>
+  <RooOverlayConstructedRoofYellow>Yellow constructed roof in roof overlay</RooOverlayConstructedRoofYellow>
+  <RooOverlayConstructedRoofYellowTip>Use yelow-ish color for constructed (not-natural) roof in roof overlay</RooOverlayConstructedRoofYellowTip>
+</LanguageData>

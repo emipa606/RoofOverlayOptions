@@ -5,7 +5,7 @@ using Verse;
 
 namespace RoofOverlayOptions;
 
-[HarmonyPatch(typeof(RoofGrid), "GetCellExtraColor")]
+[HarmonyPatch(typeof(RoofGrid), nameof(RoofGrid.GetCellExtraColor))]
 internal static class RimWorld_RoofGrid_GetCellExtraColor
 {
     private static void Postfix(ref RoofDef[] ___roofGrid, int index, ref Color __result)

@@ -4,7 +4,7 @@ using Verse;
 
 namespace RoofOverlayOptions;
 
-[HarmonyPatch(typeof(RoofGrid), "Color", MethodType.Getter)]
+[HarmonyPatch(typeof(RoofGrid), nameof(RoofGrid.Color), MethodType.Getter)]
 internal static class RimWorld_RoofGrid_Color
 {
     private static void Postfix(ref Color __result)

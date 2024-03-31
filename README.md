@@ -37,3 +37,6 @@ Use "Bug Cracks" mod to alter visuals under overhead mountains to always display
 -  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
 
 
+
+https://steamcommunity.com/sharedfiles/filedetails/changelog/3115593856]![Image](https://img.shields.io/github/v/release/emipa606/RoofOverlayOptions?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
+

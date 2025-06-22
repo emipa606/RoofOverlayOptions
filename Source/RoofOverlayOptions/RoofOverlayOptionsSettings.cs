@@ -4,15 +4,15 @@ namespace RoofOverlayOptions;
 
 public class RoofOverlayOptionsSettings : ModSettings
 {
-    public float alpha = 0.5f;
-    public bool highlightConstructedRoofInYellowInOverlay = true;
-    public bool highlightOverheadMountainInRedInOverlay = true;
+    public float Alpha = 0.5f;
+    public bool HighlightConstructedRoofInYellowInOverlay = true;
+    public bool HighlightOverheadMountainInRedInOverlay = true;
 
     public override void ExposeData()
     {
-        Scribe_Values.Look(ref highlightOverheadMountainInRedInOverlay, "RoofOverlayOptionsThickRoofRed", true);
-        Scribe_Values.Look(ref alpha, "alpha", 0.5f);
-        Scribe_Values.Look(ref highlightConstructedRoofInYellowInOverlay, "RoofOverlayOptionsConstructedRoofYellow",
+        Scribe_Values.Look(ref HighlightOverheadMountainInRedInOverlay, "RoofOverlayOptionsThickRoofRed", true);
+        Scribe_Values.Look(ref Alpha, "alpha", 0.5f);
+        Scribe_Values.Look(ref HighlightConstructedRoofInYellowInOverlay, "RoofOverlayOptionsConstructedRoofYellow",
             true);
         base.ExposeData();
     }
@@ -21,9 +21,9 @@ public class RoofOverlayOptionsSettings : ModSettings
     {
         return new RoofOverlayOptionsSettings
         {
-            highlightOverheadMountainInRedInOverlay = highlightOverheadMountainInRedInOverlay,
-            alpha = alpha,
-            highlightConstructedRoofInYellowInOverlay = highlightConstructedRoofInYellowInOverlay
+            HighlightOverheadMountainInRedInOverlay = HighlightOverheadMountainInRedInOverlay,
+            Alpha = Alpha,
+            HighlightConstructedRoofInYellowInOverlay = HighlightConstructedRoofInYellowInOverlay
         };
     }
 }
